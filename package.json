@@ -1,0 +1,36 @@
+{
+  "name": "env-guard-cli",
+  "version": "1.0.0",
+  "description": "A simple CLI tool to scan and check environment variables in your project.",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "env-guard-cli": "./src/cli.js"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node src/cli.js --help"
+  },
+  "keywords": [
+    "env",
+    "cli",
+    "environment-variables"
+  ],
+  "author": "sauravvbh-dotcom",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sauravvbh-dotcom/npm_pakage.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sauravvbh-dotcom/npm_pakage/issues"
+  },
+  "homepage": "https://github.com/sauravvbh-dotcom/npm_pakage#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
